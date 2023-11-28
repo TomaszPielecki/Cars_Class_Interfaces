@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="Change method from toString to StringBulider and make SOLID,KISS,DRY">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +88,18 @@
       <option name="presentableId" value="Default" />
       <updated>1689058655676</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change method from toString to StringBulider and make SOLID,KISS,DRY">
+      <created>1701160814771</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701160814771</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change method from toString to StringBulider and make SOLID,KISS,DRY" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change method from toString to StringBulider and make SOLID,KISS,DRY" />
   </component>
 </project>
