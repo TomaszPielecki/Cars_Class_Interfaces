@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>pl.example.cars</groupId>
+    <artifactId>car-management-system</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Przykładowe zależności -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.5.4</version> <!-- Ustaw odpowiednią wersję -->
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>11</version> <!-- Ustaw odpowiednią wersję -->
+        </dependency>
+
+        <!-- Inne zależności -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.7</version> <!-- Ustaw odpowiednią wersję -->
+                <executions>
+                    <execution>
+                        <id>javafx:run</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>pl.example.cars.Main</mainClass> <!-- Ustaw odpowiednią klasę główną Twojej aplikacji -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
