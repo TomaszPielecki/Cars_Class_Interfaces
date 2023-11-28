@@ -9,6 +9,7 @@ public class Truck extends Vehicle implements InterfaceClass {
         this.capacity = capacity;
 
     }
+    //I used StringBuilder here
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("Truck ");
