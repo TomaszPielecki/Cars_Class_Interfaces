@@ -9,16 +9,20 @@ public class Truck extends Vehicle implements InterfaceClass {
         this.capacity = capacity;
 
     }
-
     public String toString() {
-        return
-                capacity + ", Plates= " + registrationNumber +
-                        ", Vin= " + vinNumber +
-                        ", color= " + color +
-                        ", price= " + price +
-                        ", fuelConsumption= " + fuelConsumption +
-                        ", tankCondition= " + tankCondition +
-                        ", tankCapacity= " + tankCapacity +
-                        ", odometer= " + odometer;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Truck ");
+        sb.append("capacity=").append(capacity);
+        sb.append(", Plates=").append(registrationNumber);
+        sb.append(", Vin=").append(vinNumber);
+        sb.append(", color=").append(color);
+        sb.append(", price=").append(price);
+        sb.append(", fuelConsumption=").append(fuelConsumption);
+        sb.append(", tankCondition=").append(tankCondition);
+        sb.append(", tankCapacity=").append(tankCapacity);
+        sb.append(", odometer=").append(odometer);
+        sb.append("");
+
+        return sb.toString();
     }
 }
