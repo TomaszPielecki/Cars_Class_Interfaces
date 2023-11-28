@@ -6,14 +6,17 @@ class Motorcycle extends Vehicle implements InterfaceClass {
                       double fuelConsumption, double tankCondition, double odometer, double tankCapacity) {
         super(registrationNumber, vinNumber, color, price, fuelConsumption, tankCondition, odometer, tankCapacity);
     }
-
-
+    //The use of string formatting in the new version is worth considering
     public String toString() {
-        return " Plate " + registrationNumber + " Vin " + vinNumber + " color " + color +
-                ", price=" + price +
-                ", fuelConsumption= " + fuelConsumption +
-                ", tankCondition= " + tankCondition +
-                ", tankCapacity= " + tankCapacity +
-                ", odometer= " + odometer;
+        return String.format("Motorcycle {%n" +
+                "  Plates: %s,%n" +
+                "  Vin: %s,%n" +
+                "  Color: %s,%n" +
+                "  Price: %.2f,%n" +
+                "  Fuel Consumption: %.2f,%n" +
+                "  Tank Condition: %.2f,%n" +
+                "  Odometer: %.2f%n" +
+                "}", registrationNumber, vinNumber, color, price, fuelConsumption, tankCondition, odometer);
     }
+
 }
