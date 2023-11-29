@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="Add to project Maven">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DBConection/CreateTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DBConection/PostgresSqlConection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cars_Class_Interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cars_Class_Interfaces.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/InterfaceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/InterfaceClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Vehicle.java" afterDir="false" />
-    </list>
+    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="Add to project Maven" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
