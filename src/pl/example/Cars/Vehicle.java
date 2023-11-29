@@ -1,6 +1,5 @@
 package pl.example.Cars;
 
-
 public abstract class Vehicle implements InterfaceClass {
     protected String registrationNumber;
     protected String vinNumber;
@@ -10,7 +9,6 @@ public abstract class Vehicle implements InterfaceClass {
     protected double tankCondition;
     protected double tankCapacity;
     protected double odometer;
-
 
     public Vehicle(String registrationNumber, String vinNumber, String color, double price,
                    double fuelConsumption, double tankCondition, double odometer, double tankCapacity) {
@@ -22,16 +20,6 @@ public abstract class Vehicle implements InterfaceClass {
         this.tankCondition = tankCondition;
         this.odometer = odometer;
         this.tankCapacity = tankCapacity;
-
-
-    }
-
-    public void drive() {
-        System.out.println("Drive");
-    }
-
-    public void refuel() {
-        System.out.println("Refuel");
     }
 
     public double range() {
@@ -60,4 +48,8 @@ public abstract class Vehicle implements InterfaceClass {
         this.color = newColor;
         this.price = price + (price * 0.05);
     }
+
+    public abstract void loadCargo(double cargoWeight);
+
+    public abstract void unloadCargo(double cargoWeight);
 }

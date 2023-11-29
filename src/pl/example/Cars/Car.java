@@ -1,6 +1,6 @@
 package pl.example.Cars;
 
-class Car extends Vehicle implements InterfaceClass {
+class Car extends Vehicle {
     protected int numberOfDoors;
 
     public Car(String registrationNumber, String vinNumber, String color, double price, double fuelConsumption,
@@ -9,21 +9,35 @@ class Car extends Vehicle implements InterfaceClass {
         this.numberOfDoors = numberOfDoors;
     }
 
+    public void loadCargo(double cargoWeight) {
+        System.out.println("Loading cargo For Car");
+    }
+
+    public void unloadCargo(double cargoWeight) {
+        System.out.println("Unloading cargo for Car");
+    }
+
     //I used StringBuilder here
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Car");
-        sb.append(" Plates=").append(registrationNumber);
-        sb.append(", Vin=").append(vinNumber);
-        sb.append(", color=").append(color);
-        sb.append(", price=").append(price);
-        sb.append(", fuelConsumption=").append(fuelConsumption);
-        sb.append(", tankCondition=").append(tankCondition);
-        sb.append(", tankCapacity=").append(tankCapacity);
-        sb.append(", odometer=").append(odometer);
-        sb.append("");
+        return String.format("Car {%n" +
+                "  Plates: %s,%n" +
+                "  Vin: %s,%n" +
+                "  Color: %s,%n" +
+                "  Price: %.2f,%n" +
+                "  Fuel Consumption: %.2f,%n" +
+                "  Tank Condition: %.2f,%n" +
+                "  Odometer: %.2f,%n" +
+                "  Number of Doors: %d%n" +
+                "}", registrationNumber, vinNumber, color, price, fuelConsumption, tankCondition, odometer, numberOfDoors);
+    }
 
-        return sb.toString();
+    @Override
+    public void drive() {
+
+    }
+
+    @Override
+    public void refuel() {
 
     }
 }

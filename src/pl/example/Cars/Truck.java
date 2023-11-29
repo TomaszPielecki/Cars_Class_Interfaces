@@ -9,21 +9,50 @@ public class Truck extends Vehicle implements InterfaceClass {
         this.capacity = capacity;
 
     }
+
     //I used StringBuilder here
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Truck ");
-        sb.append("capacity=").append(capacity);
-        sb.append(", Plates=").append(registrationNumber);
-        sb.append(", Vin=").append(vinNumber);
-        sb.append(", color=").append(color);
-        sb.append(", price=").append(price);
-        sb.append(", fuelConsumption=").append(fuelConsumption);
-        sb.append(", tankCondition=").append(tankCondition);
-        sb.append(", tankCapacity=").append(tankCapacity);
-        sb.append(", odometer=").append(odometer);
-        sb.append("");
-
-        return sb.toString();
+        return String.format("Motorcycle {%n" +
+                "  Plates: %s,%n" +
+                "  Vin: %s,%n" +
+                "  Color: %s,%n" +
+                "  Price: %.2f,%n" +
+                "  Fuel Consumption: %.2f,%n" +
+                "  Tank Condition: %.2f,%n" +
+                "  Odometer: %.2f%n" +
+                "}", registrationNumber, vinNumber, color, price, fuelConsumption, tankCondition, odometer);
     }
+
+    @Override
+    public void drive() {
+
+    }
+
+    @Override
+    public void refuel() {
+
+    }
+
+    @Override
+    public void loadCargo(double cargoWeight) {
+        if (cargoWeight <= capacity) {
+            // Implementacja ładowania ładunku dla ciężarówki
+            System.out.println("Loading cargo: " + cargoWeight + " kg");
+            capacity -= cargoWeight;
+        } else {
+            System.out.println("Cargo capacity exceeded. Cannot load.");
+        }
+    }
+
+    @Override
+    public void unloadCargo(double cargoWeight) {
+        if (capacity + cargoWeight <= tankCapacity) {
+            // Implementacja rozładowywania ładunku dla ciężarówki
+            System.out.println("Unloading cargo: " + cargoWeight + " kg");
+            capacity += cargoWeight;
+        } else {
+            System.out.println("Cargo capacity exceeded. Cannot unload.");
+        }
+    }
+
 }

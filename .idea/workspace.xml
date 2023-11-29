@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="Certainly, here is the modified Motorcycle class with minor improvements, changes of Polish words to English, and the use of String.format">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1e060240-3d61-4161-8b48-29a6acc39429" name="Changes" comment="Add to project Maven">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DBConection/CreateTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DBConection/PostgresSqlConection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cars_Class_Interfaces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cars_Class_Interfaces.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/InterfaceClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/InterfaceClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/example/Cars/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/example/Cars/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +38,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d0117e36-41dd-4efc-855a-130d2f4e0c37" />
+        <option name="url" value="https://github.com/TomaszPielecki/Cars_Class_Interfaces.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="mavni7y7" />
@@ -58,31 +88,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenRunHelper&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenRunHelper",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\tomas\OneDrive\Pulpit\Cars_Class_Interfaces" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.example.Cars.Main" />
       <module name="Cars_Class_Interfaces" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.example.Cars.*" />
+          <option name="PATTERN" value="DBConection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +121,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostgresSqlConection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DBConection.PostgresSqlConection" />
+      <module name="Cars_Class_Interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DBConection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PostgresSqlConection" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,12 +191,20 @@
       <option name="project" value="LOCAL" />
       <updated>1701169391006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add to project Maven">
+      <created>1701212164087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701212164087</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change method from toString to StringBulider and make SOLID,KISS,DRY" />
     <MESSAGE value="Certainly, here is the modified Motorcycle class with minor improvements, changes of Polish words to English, and the use of String.format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Certainly, here is the modified Motorcycle class with minor improvements, changes of Polish words to English, and the use of String.format" />
+    <MESSAGE value="Add to project Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add to project Maven" />
   </component>
 </project>
